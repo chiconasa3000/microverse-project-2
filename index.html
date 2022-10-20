@@ -7,20 +7,87 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- header -->
+    <header  id="header">
+      <img src="assets/log-image.png" id="header-img"/>
+      <nav id="nav-bar">
+        <ul>
+          <li >
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li >
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li >
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- section -->
+    <section>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input  required type="email" id="email" placeholder="Enter email" name="email"/>
+          <input type="submit"  id="submit">
+      </form>
+    </section>
 
-    <!--
+    <!-- container -->
+   <div id="container">
 
-    Hello Camper!
+    <section id="features">
+      <div class="grid">
+        <div class="icon"> 
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+        </div>
+        <div class="desc"> 
+          <h2>Premium Material</h2>
+          <p>" Our trombones use the shinienst brass which is sourced locally. This will increase the longevity of your purchese."</p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <div>
+        <iframe id="video" src="https://youtu.be/myX0edE-2hQ" height="315" width="auto">
+    
+        </iframe>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="product">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum dolor sit </li>
+          <li>Lorem ipsum dolor sit </li>
+          <li>Lorem ipsum dolor sit </li>
+        </ol>
+        <button>Select</button>
+      </div>
+      <div class="product">
+        <div class="level">Bass Trombone</div>
+        <h2>$900</h2>
+        <ol>
+          <li>Lorem ipsum dolor sit </li>
+          <li>Lorem ipsum dolor sit </li>
+          <li>Lorem ipsum dolor sit </li>
+        </ol>
+        <button>Select</button>
+      </div>
+      <div class="product">
+        <div class="level">VALVE Trombone</div>
+        <h2>$1200</h2>
+        <ol>
+          <li>Lorem ipsum dolor sit </li>
+          <li>Lorem ipsum dolor sit </li>
+          <li>Lorem ipsum dolor sit </li>
+        </ol>
+        <button>Select</button>
+      </div>
+    </section>
+  </div>
   </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
 </html>
